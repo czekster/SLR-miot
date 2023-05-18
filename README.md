@@ -17,7 +17,7 @@ Used <a href="https://rayyan.ai" target="_blank">Rayyan</a> (tool to support con
 
 ## Authors
 
--- Aston University/UK: Ricardo M. Czekster, Paul Grace
--- PUCRS/Brazil: César Marcon, Fabiano Hessel
--- UFCSPA/Brazil: Silvio Cazella
+- Aston University/UK: Ricardo M. Czekster, Paul Grace
+- PUCRS/Brazil: César Marcon, Fabiano Hessel
+- UFCSPA/Brazil: Silvio Cazella
 
