@@ -12,6 +12,8 @@ General PRISMA process for conductin the SLR in MIoT paper as of May/2023.
 - `excluded.txt`: papers that were excluded from the SLR;
 - `analysis-papers.xlsx`: analysis in MS-Excel to perform counting;
 
+## Other
+Used Rayyan (tool) to help exclusion/inclusion: https://rayyan.ai/reviews/661529 integrated with Mendeley (private link, please ask permission for access it to Ricardo Czekster by e-mail at r.meloczekster at aston.ac.uk);
 
 ## Authors
 
