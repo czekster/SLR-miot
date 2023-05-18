@@ -13,11 +13,11 @@ General PRISMA process for conductin the SLR in MIoT paper as of May/2023.
 - `analysis-papers.xlsx`: analysis in MS-Excel to perform counting;
 
 ## Other
-Used Rayyan (tool) to help exclusion/inclusion: https://rayyan.ai/reviews/661529 integrated with Mendeley (private link, please ask permission for access it to Ricardo Czekster by e-mail at r.meloczekster at aston.ac.uk);
+Used <a href="https://rayyan.ai" target="_blank">Rayyan</a> (tool to support conducting SLRs) to help exclusion/inclusion: https://rayyan.ai/reviews/661529 integrated with Mendeley (private link, please ask permission for access it to Ricardo Czekster by e-mail at r.meloczekster at aston.ac.uk);
 
 ## Authors
 
-Aston University: Ricardo Czekster, Paul Grace
-PUCRS: César Marcon, Fabiano Hessel
-UFCSPA: Silvio Cazella
+Aston University/UK: Ricardo M. Czekster, Paul Grace
+PUCRS/Brazil: César Marcon, Fabiano Hessel
+UFCSPA/Brazil: Silvio Cazella
 
