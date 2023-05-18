@@ -1,0 +1,17 @@
+Execution: 02/05/2023 and 03/05/2023
+
+Google Scholar:
+(dynamic risk assessment or risk assessment) and (``medical IoT''\\ or MIoT) and healthcare and (cybersecurity or "cyber security" or cyber-security)
+
+ACM-DL:
+[[Full Text: dynamic risk assessment] OR [Full Text: risk assessment]] AND 
+[[Full Text: "medical iot"] OR [Full Text: miot]] AND 
+[[Full Text: cybersecurity] OR [Full Text: "cyber security"] OR 
+[Full Text: cyber-security]] AND 
+[E-Publication Date: (01/01/2017 TO 31/12/2022)]
+
+IEEExplore:
+(("All Metadata":"dynamic risk assessment" OR "risk assessment") AND 
+("All Metadata":"medical iot" OR "miot" OR "iot") AND 
+("All Metadata":"cybersecurity" OR "cyber security" OR "cyber-security"))
+

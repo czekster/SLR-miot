@@ -1,0 +1,124 @@
+
+Steps:
+1. Retrieve all titles and abstracts for the search query, except the ones 'removed before screening' (for any reason);
+   - total: 180
+   - removed before screening: 
+      -> 6 (Scholar - not research, repeated)
+      -> 2 (ACM-DL - tech report, expression of concern)
+      -> 2 (IEEExplore - magazine article)
+   - now total = 170
+2. For all records, see title/abstract to see if it aligns with research question
+   - total: 170
+   - records excluded:
+      -> X (Scholar - why?)
+      -> Y (ACM-DL - why?)
+      -> Z (IEEExplore - why?)
+3. Look now for 'reports', ie, papers, and see if you can fetch them
+   - total: 160 (?)
+   - reports not retrieved
+      -> X (Scholar - why?)
+      -> Y (ACM-DL - why?)
+      -> Z (IEEExplore - why?)
+4. Reports assessed for eligibility - now you go through the paper in its entirety
+   - total: 100 (?)
+   - reports excluded
+      -> X (Scholar - why?)
+      -> Y (ACM-DL - why?)
+      -> Z (IEEExplore - why?)
+5. Now, you'll know:
+   - Reports of included studies (n = ?)
+
+
+---------------------------------------
+Google Scholar [02/05/2023] start on paper001.pdf
+
+Screening:
+Reason: book
+paper024: 5G, Cybersecurity and Privacy in Developing Countries, by edited by Knud Erik Skouby, Prashant Dhotre, Idongesit Williams, Kamal Hiran
+paper028: Distributed Denial of Service (DDoS) Attacks: Classification, Attacks and Countermeasures, by Brij B. Gupta, Amrita Dahiya
+paper049: Access Control Models and Architectures For IoT and Cyber Physical Systems (Springer), by Maanak Gupta , Smriti Bhatt , Asma Hassan Alshehri , Ravi Sandhu
+paper063: Do No Harm 2.0,  by Robert Lord & Dillon Roseen
+paper070: Mobile Medicine: Overcoming People, Culture, and Governance, edited by Sherri Douville
+paper085: Digital Supply Chain Leadership: Reshaping Talent and Organizations, By David B. Kurz, Murugan Anandarajan
+
+Reason: not research
+paper055: CYBERSECURITY, by Datta, Shoumen 
+
+Reason: repeated
+paper072: Industry 4.0 and Digitalisation in Healthcare
+paper080: A Stacked Deep Learning Approach for IoT Cyberattack Detection
+paper088: Based blockchain-PSO-AES techniques in finger vein biometrics: a novel verification secure framework for patient authentication
+paper054: IoT cyber risk: a holistic analysis of cyber risk assessment frameworks, risk vectors, and risk ranking process
+paper061: Decades of Internet of Things towards 21st Century: A Research-Based Introspective
+
+Retrieval (pdf):
+Reason: PDF not found or not accessible (due to subscriptions/paywall):
+paper004: Securing the Hyperconnected Healthcare Ecosystem, by Ramon Sanchez-Iborra & Antonio Skarmeta 
+paper007: Risk Assessment for IoT-Enabled Cyber-Physical Systems, by Ioannis Stellios, Panayiotis Kotzanikolaou, Mihalis Psarakis & Cristina Alcaraz
+paper019: Security and provenance for Internet of Health Things: A systematic literature review, by Baogang Bai, Shah Nazir, Yuhe Bai, Amir Anees
+paper054: Legal/Regulatory Issues for MMBD in IoT, by Prateek Pandey & Ratnesh Litoriya
+paper056: An IoMT-based steganography model for securing medical information, by Joseph B. Awotunde, Idowu D. Oladipo, Muyideen AbdulRaheem, Ghaniyyat B. Balogun and Adekola R. Tomori
+paper065: Healthcare Solutions for the Next Generation: A Useful Explanation from the User's Perspective, By Amit Kumar Tyagi, Meenu Gupta, S.U. Aswathy, Chetanya Ved
+paper074: A Methodology to Design Intrusion Detection Systems (IDS) for IoT/Networking Protocols, by Satam, Pratik
+paper076: title in greek
+paper080: Sensitive Healthcare Data: Privacy and Security Issues and Proposed Solutions, by Abhishek Vyas, Satheesh Abimannan, Ren-Hung Hwang
+
+----
+Records screened: 88
+Records excluded in screening: 49
+
+Reports retrieved: 35
+Reports not retrieved: 4
+
+---------------------------------------
+ACM-DL [03/05/2023] start on paper089.pdf
+
+Reason:  proceeding or book
+paper091: ARES '22: Proceedings of the 17th International Conference on Availability, Reliability and Security
+paper095: Proceedings of the 2022 European Symposium on Usable Security EuroUSEC'22
+paper137: Proceedings of the 23rd International Middleware Conference Industrial Track
+paper143: Making Databases Work: the Pragmatic Wisdom of Michael Stonebraker, by Michael L. Brodie
+
+Reason: technical report (or not accessible)
+paper106: Programmable System Security in a Software-Defined World: Research Challenges and Opportunities, by Guofei Gu, David Ott, Vyas Sekar, Kun Sun
+
+Reason: expression of concern due to integrity of peer review process
+paper114: A Case Study for Sports Characteristic Town: Enlightenment to the Sport Industry, by Deren Zhong
+
+Reason: pdf corrupted
+paper136: Security Challenges for Big Data and IoT
+
+----
+Records screened: 59
+Records excluded in screening: 30
+
+Reports retrieved: 29
+Reports not retrieved: 0
+
+
+---------------------------------------
+IEEExplore [03/05/2023] start on paper148.pdf
+
+Reason: magazine articles
+paper173: Trusting the Internet of Things
+paper174: Trusting the Internet of Things
+
+----
+Records screened: 25
+Records excluded in screening: 4
+
+Reports retrieved: 21
+Reports not retrieved: 0
+
+-------------------------------
+Statistics:
+Screened: 88+59+29=176
+Records excluded in screening: 49+30+4=83
+Reports sought for retrieval:35+29+21=85
+
+Scholar: 71
+ACM-DL: 53
+IEEExplore: 25
+Total: 149 papers to overview
+
+

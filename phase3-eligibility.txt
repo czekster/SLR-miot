@@ -1,0 +1,115 @@
+Eligibility criteria:
+- mention IoT, MIoT, healthcare
+- security based: discusses security issues
+- attacks | technologies | defenses --> common to IoT/MIoT
+- risk assessment of IoT/MIoT
+
+For the ones included, they should mention either attacks, defenses, or risk mgmt/assessment framework
+
+Causes for exclusion after screening:
+    Unrelated (n = 33)
+    Focus on blockchain (n = 5)
+    Focus on AI/DL/ML (n = 9)
+    Focus on data flows (n = 1)
+    Focus on testing (n = 1)
+    Focus on privacy (n = 7)
+    Focus on communications security (n = 3)
+    Focus on cloud/big data/fog (n = 2)
+    Focus on secure routing (n = 1)
+    Focus on defenses (n = 1)
+    Focus on Industrial IoT (n = 2)
+    Focus on incomplete data (n = 1)
+    Focus on side-channels (n = 1)
+TOTAL: 67
+
+-------------------------------------------
+Google Scholar (8 included, 27 excluded)
+paper001: included
+paper002: included
+paper003: included (proposes a dynamic RA process)
+paper005: excluded, Focus on AI/DL/ML
+paper006: included (really close to ours)
+paper010: included
+paper011: included
+paper013: excluded, unrelated
+paper015: excluded, unrelated
+paper016: excluded, Focus on AI/DL/ML
+paper017: included
+paper018: excluded, unrelated
+paper021: included
+paper023: excluded, Focus on AI/DL/ML
+paper025: excluded, Focus on privacy
+paper026: excluded, Focus on testing
+paper029: excluded, Focus on data flows
+paper033: excluded, Focus on AI/DL/ML
+paper034: excluded, unrelated
+paper036: excluded, Focus on blockchain
+paper037: excluded, unrelated
+paper039: excluded, unrelated
+paper042: excluded, Focus on AI/DL/ML
+paper043: excluded, unrelated
+paper047: excluded, unrelated
+paper048: excluded, unrelated
+paper050: excluded, Focus on communications security
+paper052: excluded, unrelated
+paper055: excluded, Focus on cloud/big data/fog
+paper057: excluded, Focus on blockchain
+paper058: excluded, Focus on AI/DL/ML
+paper059: excluded, Focus on privacy
+paper068: excluded, Focus on secure routing
+paper075: excluded, Focus on privacy
+paper083: excluded, Focus on AI/DL/ML
+
+ACM-DL (1 included, 28 excluded)
+paper089: excluded, unrelated
+paper093: excluded, Focus on communications security
+paper094: excluded, Focus on defenses
+paper097: excluded, Focus on cloud/big data/fog
+paper098: excluded, Focus on privacy
+paper099: excluded, Focus on privacy
+paper101: included
+paper102: excluded, unrelated
+paper103: excluded, unrelated
+paper104: excluded, Focus on communications security
+paper105: excluded, unrelated
+paper107: excluded, unrelated
+paper108: excluded, Focus on AI/DL/ML
+paper110: excluded, Focus on Industrial IoT
+paper112: excluded, Focus on blockchain
+paper115: excluded, Focus on blockchain
+paper116: excluded, unrelated
+paper117: excluded, Focus on blockchain
+paper119: excluded, Focus on incomplete data
+paper120: excluded, unrelated
+paper122: excluded, Focus on privacy
+paper123: excluded, Focus on side-channels
+paper124: excluded, unrelated
+paper129: excluded, unrelated
+paper130: excluded, unrelated
+paper131: excluded, unrelated
+paper139: excluded, unrelated
+paper140: excluded, Focus on AI/DL/ML
+paper144: excluded, unrelated
+
+IEEExplore (9 included, 12 excluded)
+paper148: included
+paper149: included
+paper150: included
+paper151: included (DRA, interesting)
+paper155: excluded, unrelated
+paper156: excluded, Focus on Industrial IoT
+paper157: excluded, unrelated
+paper158: excluded, unrelated
+paper159: excluded, unrelated
+paper161: excluded, unrelated
+paper162: included
+paper163: included
+paper164: included
+paper165: included (this is is a 'must read')
+paper166: included
+paper167: excluded, unrelated
+paper168: excluded, unrelated
+paper169: excluded, unrelated
+paper170: excluded, unrelated
+paper171: excluded, Focus on privacy
+paper172: excluded, unrelated

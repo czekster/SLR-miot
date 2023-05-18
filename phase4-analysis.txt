@@ -1,0 +1,453 @@
+Total of 18 papers selected on [09/05/2023]
+----------------------------------------------
+
+Extract:
+- RA, DRA, methodology
+- risk ranking (quantitative, index)
+- IoT (type)
+- cyber security aspects
+- IoT related attacks
+- mitigations
+- responses
+- case studies
+- audience, major stakeholders
+
+1. IoT-based vulnerabilities:
+2. Risk:
+3. Risk Assessment:
+4. Methods of risk:
+5. Case studies: 
+Observations: 
+
+------TODO, ponderings, phrases to incorporate, etc.------
+- "definition" of 'medical device': paper006-04 and paper101-09 mentions FDA/US
+
+- look for recent statistics on IoT-based attacks and what organisations are doing to protect themselves;
+   - paper002-02.pdf discusses in introduction (revisit those numbers)
+- paper002-02 claimed that 'usual' RA frameworks do not 'cope' with IoT (thus justifying the 'creation' of a new one that is tailored for IoT): is that so? why? which situations it woudln't be possible to apply?
+         --> See Nurse's paper about this discussion <--
+   - most of the RA currently employed are 'generic' enough to be able to 'adapt' to a myriad of circumstances posed by modern infrastructure, and IoT belong to this class;
+- paper006-04 mentions the transmission of sensitive data such as Patient Health Information (PHI) - perhaps we should also mention Electronic Health Records (EHR) - 
+- need to 'compartmentalise' security analysis by inspecting the components/divisions/organisation of IoMT and see where threat actors may have opportunities to abuse systems and networks
+- relating to paper010-05.pdf, that focuses on 'critical systems', aamof, healthcare is considered a critical infrastructure (according to the UK) - check this out and complement in the paper
+- as a bunch of papers mention the IoT market size and future predictions, perhaps a sub-section detailing this would be interesting, determining the *real* size and estimations for discussion
+- brief 'terminology' or 'taxonomy' paragraph, stating all IoT, IoMT, MIoT, e-health (as discovered in previous SLR phases)
+
+- heterogeinity as a security measure (paper011-06.pdf discusses that 'thehre are no consensus or agreed-upon standards, increasing complixy and preventing a unified secure scheme pertaining the entire MIoT ecosystem)
+   - I would need to find a discussion where this 'is a feature', not an issue
+
+- Healthcare systems: Electronic Medical Recording (EMR), Order Communication Systems (OCS), Picture Archiving and Communication Systems (PACS) - from paper017-07.pdf
+
+- Mention: 
+   - Body Area Network (BAN)
+   - Implantable Medical Devices (IMD)
+   - Implantable and Wearable Medical Devices (IWMD)
+   - Implantable Cardiac Defibrillator (ICD)
+   - Bluetooth Low Energy (BLE)
+
+------end------
+After reading ALL papers:
+- New exclusions (reason: unrelated): paper021-08, paper149-11, paper162-14, paper164-16, paper166-18
+
+
+
+-------------------[very good]---------------------------
+paper001-01-01: IoT, IoMT
+1. IoT-based vulnerabilities: complex architecture, inappropriate security configuration, physical security, insecure firmware or software
+2. Risk: computation of cyber risk; mention to risk ranking, risk vectors, risk assessment frameworks
+3. Risk Assessment: mention to impact factors, likelihood, risk level in IoT; mention to Risk Assessment Process (RAP) of NIST, ISO/IEC, OCTAVE; GSMA, TARA
+4. Methods of risk: Dempster-Shafer Theory of Belief Functions (Section 2.3); cybersecurity game theory; FMEA; Fuzzy Set theory
+5. Case studies: mentions applications as varied as financial systems and healthcare
+Observations: showcases so called "RA frameworks for IoT"; computes IoMT risk for medical devices; discusses RA scales and rankings; presents IoT risk vectors (interesting Table 2) and risk rank calculation (Table 4); devise weights for computing risk likelihood parameters (Table 7);
+This is a very interesting paper with a framework to address risk in IoMT in close relation to the RQ as proposed by the SLR.
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Showcases RA framewors for IoT and}\\
+ {computes IoMT risk, computes risk,}\\
+ {IoT risk vectors and risk ranking}\\
+\end{tabular}
+
+-------------------[very good]---------------------------
+paper002-02-02: IoT
+1. IoT-based vulnerabilities: cybersecurity at IoT Architecture, Perception Layer, Network Layer, Processing Layer, Application Layer, Service Mgmt Layer,
+2. Risk: discusses qualitative approaches to cybersecurity risk management (iso, ckc, octave, cmmi, cag) and quantitative approaches (bdn, avarciber, nist);
+3. Risk Assessment: four-layer IoT cyber risk management framework; ISO/IEC 27005, CKC, OCTAVE, CMMI Cybermaturity Platform, Consensus Audit Guidelines (CAG); Bayesian Decision Network (BDN), AVARCIBER (extension of ISO 27005), NIST Cybersecurity Framework;
+4. Methods of risk: linear programming method (allocation of resources to different IoT cybersecurity projects);
+5. Case studies: cyber risk management for a hotel smart room
+Observations: the four-layer risk mgmt framework is: IoT Cyber Ecosystem Layer, IoT Cyber Infrastructure Layer, IoT Cyber Risk Assessment Layer, IoT Cyber Performance Layer;
+It does risk identification by inspecting IoT assets, vulnerabilities and cyber-threats;
+It performs risk quantification by looking at impact, frequencies, defense probability of each IoT-asset-vulnerabilities-cyber threat grouping;
+It goes to show how to allocate IoT resources in a financial/budget scheme that does cost-benefit analysis;
+Interesting paper, showing ideas on how to break down IoT-based layers to divide-and-conquer risk analysis.
+
+phrases and keywords: dynamic and transient nature of IoT interconnections; diversity of threat actors and constraints imposed by limited capacity resources;
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Proposition of a four-layer IoT}\\
+ {cyber risk management framework,}\\
+ {risk identif., quantification}\\
+\end{tabular}
+
+-------------------[excellent]---------------------------
+paper003-03-03: IoMT
+1. IoT-based vulnerabilities: discussion of layers: physical, network, application;
+2. Risk: discusses risks on layers (described below);
+3. Risk Assessment: it proposes a Risk Management Framework relying on an orchestrator and three agents for managing risks at the device, network and storage and processing areas; explain RA particular to e-health (for haemodialysis and cardiac devices);
+4. Methods of risk: dynamic agent-based risk management (with risk identification, analysis/evaluation, adaptation, followed by classification, risk evaluation (risk impact/cost, anomaly probability, global risk evaluation, model evaluation) 
+5. Case studies: generic to IoT/IoMT
+Observations: 
+Aims to study security challenges in e-health networks; introduction of framework to enhance turstworthiness in IoMT communicating nodes for decision-making on a layered risk management model;
+Also mentions OWASP IoT's vulnerabilities.
+Discusses IoT layers: perception, network, middle-ware, application, business layer;
+Objective: to simplify the complexity of cyber-risks mgmt; establish a fine-grained risk mgmt process; evaluate cumulative risk associated to global e-health service; automate response for risk mitigation;
+
+phrases and keywords: IoMT are highly distributed networks, extremely heterogeneous and scalable; it generates massive data from multiple sources and involves numerous stakeholders;
+Statistics: Mckinsey says that IoT devices are estimated to reach 50 billion by 2025.
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Dynamic agent-based risk mngmt.,}\\
+ {Generic case studies in IoT/IoMT,}\\
+ {Enhance trustworthiness of IoMT}\\
+\end{tabular}
+
+-------------------[excellent, it's an SLR as well]---------------------------
+paper006-04-04: IoMT
+1. IoT-based vulnerabilities: prevent healthcare service unavailability or disruption; mentions several 'procurement' guidelines specific to healthcare (FDA, MDS2, EU MDR) to sustain security and privacy requirements; i) authentication, ii) trust, iii) data integrity and confidentiality, trusted execution, iv) prevention of malicious alterations, v) protections against DoS.
+2. Risk: mentions "medical risk" (according to FDA/US) in three classes: Class I (lowest risk), Class II, and Class III;
+3. Risk Assessment: generic risk models (NIST and ISO); Threat Modelling for IoMT (STRIDE, DREAD, attack trees and Multiple-Valued Logic); Section IV compares RA standards and best practices for IoMT (Fig 3 is very nice); comments on ISO, NIST, UL standards, OWASP, MAYO Clinic, ENISA, AAMI, TGA, MITRE; discusses security controls for IoMT;
+4. Methods of risk: discusses current standards, recommendations and guidelines for risk;
+5. Case studies: generic (for all IoMT) - see Figure 2, very interesting Generic Risk Model for IoMT (note: looks very inspired on NIST's terminology, eg, predisposing conditions, adverse impact, etc.); This generic model invites analysts to do a thorough 'security assessment': threat assessment, vulnerability assessment, impact assessment, risk mitigation or risk treatment;
+Observations: 
+"definition" of 'medical device' (according to US Food Drug & Cosmetic Act): instrument intented for use in the 'diagnostics, cure, mitigation, treatment, or prevention of disease'. Interconnected medical devices perform generation, collection, analysis and transmission of patient medical data through healthcare provider networks (cloud or internal servers).
+"classification" of medical devices: physiologic monitoring (wearable), medical treatment (implantable medical devices - IMD), in-hospital connected (institutional medical devices or Surgical Robotics), and ambient (assisting treatment, patient identification, movement detection, sensing);
+ 
+phrases and keywords: used Google to retrieve stardards and grey literature associated to the subject;
+It has a somewhat 'controversial' statement right on the abstract to motivate/justify the need for specific RA into IoMT: "Traditional risk assessment methodologies, however, cannot be effectively applied in the IoMT context since IoMT devices form part of a distributed and trustless environment and naturally support functionalities that favor reliability and usability instead of security."
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {SLR, discussing risk assessment}\\
+ {frameworks in IoMT, comments on}\\
+ {``medical risk'' and risk methods}\\
+\end{tabular}
+
+-------------------[very good paper on IoT-enabled attacks with decent case studies]---------------------------
+paper010-05-05: IoT, critical systems, medical IoT systems
+1. IoT-based vulnerabilities: attacks specific to IoT are not fully understood (? really ?); attacks against end-users;
+2. Risk: 
+3. Risk Assessment: discusses ISO and NIST (Section IV(A)); methodology uses attack model to output qualitative criticality level of IoT-enabled cyber attacks (tables depicting Threat Level, Impact Level, Vulnerability level (HW and SW layers and Network vulnerabilities, communication protocols), and Criticality level;
+4. Methods of risk: 
+5. Case studies: focus on 'verified' attacks, ie, real-world incidents or attacks published by researchers; SCADA system with IoT; e-health IoT; Smart Systems;
+Observations: 
+Discussion of IoT layers: i) HW Layer and SW Layer vulnerabilities with discussion on particular vulnerabilities to each layer; ii) Network vulnerabilities, covering communication protocols, application-layer protocols, network design flaws, poor key management and key exchange; 
+Model consisting of Threat Assessment; Vulnerability Assessment; Impact Assessment (Figure 3);
+Figure 4 depics an interesting methodology for outputing qualitative criticality level;
+It explains attacks in depth (however, focusing on critical infrastructure and services - which encompasses healthcare);
+   - Section VIII tackes e-health and Medical IoT Systems (in-hospital IoT ecosystem and near-patient IoT ecosystem) --> which is a very interesting idea (see Figure 8)
+
+phrases and keywords: 
+Somewhat 'controversial' phrase: "Although security attacks against cyber-physical systems [17] and IoT devices [13] have received considerable attention during the last years, the significance of IoT-enabled attacks is not always fully assessed."
+   - 'significance' of IoT is not fully assessed: how and why?
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Methodology uses attack model to}\\
+ {output qualitative criticality}\\
+ {level of IoT-enable devices}\\
+\end{tabular}
+
+-------------------[good]---------------------------
+paper011-06-06: MIoT
+1. IoT-based vulnerabilities: confidential patient information exposure; eavesdrop, privacy, data leakage of information loss
+Layers: Perception, Network, Application (figure 4), detailing protocols used by a plethora of MIoT solutions;
+- it explains specific attacks perpetrated to each layer: perception/netework/application (Figure 7);
+- explains available countermeasures: access control, data encryption, data auditing, IoT healthcare policies, data search, data minimization/anonymization, inventory devices, network segmentation, following best practices, awareness, continous monitoring and reporting
+Focus on security and privacy requirements of MIoT: confidentiality, data integrity/availability, resilience to attacks, data usability, access control, data auditing/authentication, privacy of patient information
+2. Risk: 
+3. Risk Assessment: 
+4. Methods of risk: 
+5. Case studies: 
+Observations: 
+Figure 1 details a good representation of the MIoT infrastructure: WBAN, sensing, cloud, medical staff
+Motivation for this work is to work towards strengthning security and privacy of the MIoT ecosystem
+Explain Real-time Location Services RTLs) for IoT devices, for tracking employees, patients, visitors, assets
+Discuss challenges: insecure network, limitation of resources, heterogenerous devices, 0-day vulnerabilities/patching, high mobility, dynamic network topology, trust mgmt, social engineering
+Authors state that "regular risk assessment must be conducted in order to identify potential risks" and that "before deploying devices, a risk assessment has to be completed in order to understand what vulnerabilities exist before setting up the environment"
+
+phrases and keywords: 
+The need for 'technological integration', offering seamless ubiquitous services to stakeholders
+Healthcare organisations expanded services to support in-home patients for remote monitoring, tracking and treatment
+-- This paper is not particularly devoted to any risk assessment in MIoT --
+   - perhaps it should be excluded -
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Focus on security and privacy req.}\\
+ {of MIoT, CIA, resilience, access}\\
+ {control, usability, data issues}\\
+\end{tabular}
+
+-------------------[good]---------------------------
+paper017-07-07: IoT
+1. IoT-based vulnerabilities: trojan, phishing, ransomware, APT, malware, healthcare cloud related attacks
+2. Risk: 
+3. Risk Assessment: focus on NIST Cyber Security Framework
+4. Methods of risk: NIST, self-assessment survey instruments (questionnaires) for vulnerability and risk management, bowtie diagram showing vulnerability/threat pairs,  that produced two other indices: Risk Management Culture (RMC) and Risk Process and Tecnology (RPT)
+5. Case studies: Asian healthcare IT organisations
+Observations: 
+Focus on Asia and healthcare cyberattacks
+Objective was to understand cybersecurity maturity from a vulnerability and risk perspective
+Devise the computation of an Enriched Vulnerability Priority Score (EVPS) to prioritise vulnerabilities
+
+phrases and keywords: 
+This work does not cover dynamic risk assessment per se, however, it computes indices for understanding risk, which is interesting to showcase its importance in these contexts
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Risk assessment focused on NIST}\\
+ {Cyber Security Framework using}\\
+ {self-assessment survey instruments}\\
+\end{tabular}
+
+-------------------[very good on MIoT cybersecurity, not on RA/DRA]---------------------------
+paper101-09-08: IoT
+1. IoT-based vulnerabilities: comprehensive attack based panorama in IoT across software, system, side channel and communication channel; poor software design leading to vulnerabilities and exposures
+2. Risk: 
+3. Risk Assessment: mentions several medical standards for cybersecurity (IEC 62304:2006, ISO/IEC 27032:2012, IEC 82304-1:2016, ISO/IEC 8001 (Risk Mgmt of medical devices on a network), IEC/TR 80002-1:2009, ISO/TR 800020-2:20017, IEC/TR 80002-3:2014
+4. Methods of risk: fault-tolerant design
+5. Case studies: it's a survey
+Observations: 
+Figure 1 overviews an example of healthcare system (patient, data processing, healthcare provider, all 'glued' by a network component)
+Classification of non-invasive devices, invasive devices (transient use, short-term, long-term and connected) and active therapeutic devices (eg muscle stimulators, hearing aids, etc)
+Classification of Sensors: physiological (measure ECG, electromyography), biological (glucose, alcohol), environmental sensors (accelerometer and gyroscope in smart watches)
+Suggest the use of Intrusion Detection mechanisms to detect attacks; fine-grained access control; privacy-preserving healthcare system; ML and big data; study of smart medical devices and existing threats;
+
+phrases and keywords: 
+Very good paper outlining definitions for medical devices, the required infrastructure, attack surface, standards for cybersecurity
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Discusses the benefits of fault-}\\
+ {tolerant designs to improve sec.,}\\
+ {survey of known attacks in IoT}\\
+\end{tabular}
+
+-------------------[somewhat good]---------------------------
+paper150-12-09: IoT
+1. IoT-based vulnerabilities: 
+2. Risk: 
+3. Risk Assessment: 
+4. Methods of risk: Design Space Exploration (DSE), Bayesian Attack Graphs (BAG), Risk Trees (RISKEE)
+5. Case studies: 
+Observations: 
+Provide a design framwork to study a system's attack susceptibility to model security constraints as BAGs or risk trees
+
+phrases and keywords: 
+It's unrelated to what we are looking somewhat interesting, but perhaps it should be removed
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Use of known methods to address}\\
+ {risk, eg, Design Space Exp. (DSE),}\\
+ {Bayesian Attack Graphs, risk trees}\\
+\end{tabular}
+
+-------------------[excellent]---------------------------
+paper151-13-10: IoT
+1. IoT-based vulnerabilities: 
+2. Risk: 
+3. Risk Assessment: three key steps: cybersecurity risk assessment framework, security incident and event management, and resilience framework; it extends the ETSI risk based security assessment (TODO: look for it "Toward a cybersecurity certification framework for the internet of things");
+It showcases the framework: basically, i) understanding business cases and regulatory contexts; ii) business processes identification and security requirements; iii) risk identification, estimation, evaluation and security testing; iv) assets: cloud web services, MEC (?), IoT devices and networks; v) upgradig software modules of end-to-end IoT platforms;
+
+4. Methods of risk: 
+5. Case studies: attacks using Fed4FIRE+ federated testbeds (https://www.fed4fire.edu/testbeds)
+
+Observations: 
+It brings together a Risk Assessment Framework and Security Incident and Event Monitoring (SIEM)
+It states that "Dynamic security assessment focuses on an assessment approach for monitoring security, trust, and privacy of IoT systems through constant real time and dynamic monitoring." (without any supporting reference though)
+Results and lessons learned are quite 'fast', without any concerns or explanations (very weak);
+
+phrases and keywords: 
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Combination of risk assessment}\\
+ {framework with security incident}\\
+ {and event management altogether}\\
+\end{tabular}
+
+-------------------[!excellent!]---------------------------
+paper163-15-11: IoT
+1. IoT-based vulnerabilities: 
+2. Risk: 
+3. Risk Assessment: describes "core risk assessment concepts": generally understood as the process of identifying, estimating and prioritising risks to organisational assets and operations (NIST SP 800-30Rev-1, 2012)
+Describes usual approaches: NIST SP 800-30, ISO/IEC 27001, OCTAVE, CCTA Risk Analysis and Mgmt Method (CRAMM), EBIOS;
+Discusses particularities related to "IoT dynamics": variability of scale in devices and systems; dynamism and temporality of connections between devices; heterogeneity of actors interacting with IoT ecosystems;
+Discussion on "where current risk assessment methods fail": i) shortcomings of periodic assessments (triggered by organisational's prior risk assessment that may no longer be valid), such triggers include changes in the system, business processes or threat intelligence
+Interesting phrase: "The reason why risk assessment approaches are inadequate for the IoT is that their periodic assessment nature, which is already a notable weakness is exacerbated due to the IoT dynamics we've outlined. For instance, the variability in scale of IoT systems means that the probability of a new system emerging between periodic assessments will be high. To be effective, risk assessment would need to be able to predict and consider the possible systems that might emerge prior to the next assessment. This is extremely challenging, and current approaches typically do not mandate it."
+And another: "Risk assessment is currently focused on determining risk for systems that exist, and even now, there are challenges in developing a comprehensive understanding of such systems’ environments. 5 As noted, this is unlikely to be sufficient for the IoT because systems could well change shape more quickly than such periodic assessments can account for."
+--->> Table 1 outlines why current risk assessment approaches are inadequate for the IoT <<---
+And finally, in "the need for new approaches" subsection: "We therefore anticipate the need for automated and continuous risk assessment approaches as well as the development of new support tools to assist with simulation and modeling that can enhance our predictive powers."
+
+4. Methods of risk: 
+5. Case studies: 
+Observations: 
+
+phrases and keywords: 
+"Internet of Things (IoT) is set to benefit society through a range of smart platforms and a pervasive coupling of digital, cyber-physical, and social systems."
+"From a security and trust management perspective, however, the challenge with the IoT is that existing risk assessment methodologies were established prior to its development."
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Describes core RA concepts in IoT,}\\
+ {Comments on deficiencies of RA}\\
+ {approaches and its inadequacy}\\
+\end{tabular}
+
+
+-------------------[excellent, with industrial insights - interesting paper]---------------------------
+paper165-17-12: IoT
+1. IoT-based vulnerabilities: 
+2. Risk: 
+3. Risk Assessment: NIST (SP 800-30, SP 800-37), ISO27000, as well as OCTAVE, IRAM2, ISRAM
+4. Methods of risk: Mentions the IoTRiskAnalyzer framework; probabilistic model checking; bayesian techniques (attack graphs and inference networks), SecKit (model based security for addressing IoT risks);
+5. Case studies: 
+Observations: 
+Discusses the need for "automated risk assessment in the IoT" and "collaborative risk assessment"
+In the discussions, they mention that there is a "perceived infeasibility of fully automated risk assessment in the IoT, and a view towards inter-organisational assessment of risk given IoT's wide connectivity"
+Industrial practices,  concerns, and observations as to the difficulties of tackling timely risk assessments in IoT
+
+phrases and keywords: 
+
+LaTeX Table:
+----------------------------------
+\begin{tabular}[l]{@{}l@{}}
+ {Comments on the need for automated}\\
+ {and collaborative RA in IoT , with}\\
+ {industrial comments and practices}\\
+\end{tabular}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+-------------------[exclude]---------------------------
+paper021-08: MIoT, IoT, Implantable Medical Devices
+1. IoT-based vulnerabilities: low energy exploits on bluetooth, malicious remote control, cybersecurity risks in insulin pumps, wiress technology vulnerabilities, intrusion and exploits of cardiac devices
+2. Risk: 
+3. Risk Assessment: 
+4. Methods of risk: 
+5. Case studies: 
+Observations: 
+Focus on Medical Implant Devices
+It overs a generic Medical Implant Device Threat Model
+It shows a comprehensive cyberattack landscape for Implantable Medical Devices (IMD)
+
+phrases and keywords: 
+-- This paper is not particularly devoted to any risk assessment in MIoT --
+   - perhaps it should be excluded -
+
+
+-------------------[exclude - however, interesting, with DRA, but for IoT in autonomous vehicles]---------------------------
+paper148-10: IoT in Connected and Autonomous Vehicles
+1. IoT-based vulnerabilities: 
+2. Risk: mentions OCTAVE, ISO26262 and other particular to vehicle risk management/assessment
+3. Risk Assessment: DRA
+4. Methods of risk: 
+5. Case studies: automotive
+Observations: 
+Comment on the requirements and challenges for developing a Dynamic Risk Assessment Framework in highly dynamic environments with frequent chahnges of threats, vulnerabilities and technologies
+Why DRA: quickly adapt to unstable environments from different IoT sources
+The risk framework should: i) deal with heterogeneous data; ii) eliminate inconsistency and incompleteness (manage uncertainty errors, missing value, increase data reliability); iii) reduce data scale for efficient processing; iv) provide risk analysis in run-time (for decision making)
+It proposes a Dynamic Risk Management Framework based on risk profiles (called "Profile-driven dynamic risk management framework")
+
+phrases and keywords: 
+
+-------------------[exclude - wrong 'terms' for risk, calling STRIDE a RA framework for instance]---------------------
+paper149-11: IoT
+1. IoT-based vulnerabilities: 
+Four-layer architecture: perception, network, middleware, application
+2. Risk: 
+3. Risk Assessment: 
+4. Methods of risk: 
+5. Case studies: 
+Observations: 
+Weak paper, it will be excluded
+
+phrases and keywords: 
+
+-------------------[borderline exclusion]---------------------------
+paper162-14: IoT in sports (wearable technologies)
+1. IoT-based vulnerabilities: 
+Layers: Sensors, Networks, Service, Interface
+2. Risk: 
+3. Risk Assessment: generic mentions to use a risk management implementing strategies, monitoring, addressing critical and risky issues, changing and adjusting as necessary
+Mentions NIST Cybersecurity Framework
+4. Methods of risk: 
+5. Case studies: 
+Observations: 
+very weak paper on risk assessment
+
+phrases and keywords: 
+
+
+-------------------[exclude]---------------------------
+paper164-16: IoT
+1. IoT-based vulnerabilities: 
+2. Risk: 
+3. Risk Assessment: mixed concepts, such as characterising cybersecurity risk management as 'a purpose' of "vulnerability, threat, and repercussions", looking at "Vulnerabilities, Threats, Consequences, Risk"
+Mentions OCTAVE and OCTAVE Allegro
+4. Methods of risk: 
+5. Case studies: 
+Observations: 
+Very weak paper, focusing on the economics of IoT and ROI
+
+phrases and keywords: 
+
+
+
+-------------------[exclude]---------------------------
+paper166-18: IoT in power grids (somewhat out of context/focus)
+1. IoT-based vulnerabilities: 
+2. Risk: 
+3. Risk Assessment: 
+4. Methods of risk: 
+5. Case studies: 
+Observations: 
+
+phrases and keywords: 
+
+
+

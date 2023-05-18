@@ -1,0 +1,179 @@
+-------------Scholar----------------
+001-IoT cyber risk: a holistic analysis of cyber risk assessment frameworks, risk vectors, and risk ranking process
+002-Internet of Things (IoT) Cybersecurity: Literature Review and IoT Cyber Risk Management
+003-Cyber-Risk Management within IoMT: a Context-aware Agent-based Framework for a Reliable e-Health System
+004-
+005-Cyber Security in IoT-Based Cloud Computing: A Comprehensive Survey
+006-Risk Assessment Methodologies for the Internet of Medical Things: A Survey and Comparative Appraisal
+007-
+008-Comparitive Study of Blockchain Applications for Enhancing Internet of Things Security
+009-Cybersecurity Risk Management Framework for Blockchain Identity Management Systems in Health IoT
+010-A Survey of IoT-Enabled Cyberattacks: Assessing Attack Paths to Critical Infrastructures and Services
+011-Security and Privacy Issues in Medical Internet of Things: Overview, Countermeasures, Challenges and Future Directions
+012-Cyber-risks from using IoT devices for managing Covid-19
+013-IOT Communication Technologies and Future of Internet of Things
+014-Deep Learning in Security of Internet of Things
+015-Enabling Autonomous Trust, Security and Privacy Management for IoT
+016-Methodical Analysis of Medical Internet of Things (MIoT) Security and Privacy in Current and Future Trends
+017-Digital Healthcare - Cyberattacks in Asian Organizations: An Analysis of Vulnerabilities, Risks, NIST Perspectives, and Recommendations
+018-Consumer, Commercial, and Industrial IoT (In)Security: Attack Taxonomy and Case Studies
+019-
+020-Exploring the Security Control Techniques Cybersecurity Specialists Need to Protect Medical Wearable Devices
+021-Medical Internet of Things: A Survey of the Current Threat and Vulnerability Landscape
+022-Secure Cloud Storage for Medical IoT Data using Adaptive Neuro-Fuzzy Inference System
+023-Hardware-Assisted Machine Learning in Resource-Constrained IoT Environments for Security: Review and Future Prospective
+024-
+025-Privacy Dilemma in Healthcare: A Review on Privacy Preserving Medical Internet of Things
+026-Testing Techniques in IoT-based Systems
+027-A Safety and Security Architecture for Reducing Accidents in Intelligent Transportation Systems
+028-
+029-Security Analysis for Threats to Patient Data in the Medical Internet of Things
+030-An Internet of Things-based health prescription assistant and its security system design
+031-Detection of Distributed Denial of Service (DDoS) Attacks in IOT Based Monitoring System of Banking Sector Using Machine Learning Models
+032-Artificial Immune Systems approaches to secure the internet of things: A systematic review of the literature and recommendations for future research
+033-A Survey of Machine and Deep Learning Methods for Internet of Things (IoT) Security
+034-Security Performance of Internet of Medical Things
+035-Design Guidelines and a Prototype Implementation for Cyber-Resiliency in IT/OT Scenarios Based on Blockchain and Edge Computing
+036-Decades of Internet of Things Towards Twenty-first Century: A Research-Based Introspective
+037-The Role of the Internet of Things in Health Care: A Systematic and Comprehensive Study
+038-A Software Framework for Security Risk Assessment and Management in Life-critical Embedded Systems
+039-The Dichotomy of Cloud and IoT: Cloud-Assisted IoT From a Security Perspective
+040-The Impact of the Internet of Things (IoT) on the IT Security Infrastructure of Traditional Colleges and Universities in the State of Utah
+041-When Internet of Things meets Metaverse: Convergence of Physical and Cyber Worlds
+042-Intrusion detection based on machine learning in the internet of things, attacks and counter measures
+043-QoS Review: Smart Sensing in Wake of COVID-19, Current Trends and Specifications With Future Research Directions
+044-Intrusion of Malware (DDoS) Detection in IoT Devices Using Machine Learning on Cyberspace
+045-The Impact of Telework on Organizational Cybersecurity During the COVID-19 Pandemic
+046-Fundamental Security For Iot And Iomt Devices Within Health Care In The Absence Of Industry Standards
+047-Biometrics for Internet-of-Things Security: A Review
+048-IoT Security and New Trends of Solutions
+049-
+050-Security in IoMT Communications: A Survey
+051-Security Threats in Wireless Network  Communication- Status, Challenges, and Future Trends
+052-A Critical Analysis of ECG-Based Key Distribution for Securing Wearable and Implantable Medical Devices
+053-Investigating The Impact and Privacy Alignment Of IoT Cybersecurity, in Sweden's Elderly Care
+054-
+055-Cloud and Big Data Security System's Review Principles: A Decisive Investigation
+056-Industry 4.0 and Digitalisation in Healthcare 
+057-Blockchain Based Solutions to Mitigate Distributed Denial of Service (DDoS) Attacks in the Internet of Things (IoT): A Survey
+058-A Stacked Deep Learning Approach for IoT Cyberattack Detection
+059-Privacy Enhancing Technologies in the Internet of Things: Perspectives and Challenges
+060-Analysis and study of data security in the Internet of Things paradigm from a Blockchain technology approach
+061-
+062-SIP: An Efficient and Secure Information Propagation Scheme in E-Health Networks
+063-
+064-Metaverse for Healthcare: A Survey on Potential Applications, Challenges and Future Directions
+065-
+066-Machine Learning Approaches To Improve Security And Performance Monitoring Of Iot Devices
+067-Healthcare
+068-Trust and Mobility-Based Protocol for Secure Routing in Internet of Things
+069-A review of smart contract-based platforms, applications, and challenges
+070-
+071-A Review of Blockchain-Based Applications and Challenges
+072-
+073-Based blockchain-PSO-AES techniques in finger vein biometrics: A novel verification secure framework for patient authentication
+074-
+075-The Systematic Literature Review of Privacy-Preserving Solutions in Smart Healthcare Environment
+076-
+077-I always feel like something is watchin' me, and I have no privacy – Privacy Calculus and Data-Tracking as Determinants of IoT-Acceptance
+078-Security Assessment Framework for the Internet of Medical Things Solutions
+079-Industrial digital twins at the nexus of NextG wireless networks and computational intelligence: A survey
+080-
+081-A Review of Metaverse's Definitions, Architecture, Applications, Challenges, Issues, Solutions, and Future Trends
+082-Raspberry House: An Intrusion Detection And Prevention System For Internet Of Things (Iot)
+083-Federated Learning for the Internet-of-Medical-Things: A Survey
+084-The Role of Artificial Intelligence Driven 5G Networks in COVID-19 Outbreak: Opportunities, Challenges, and Future Outlook
+085-
+086-Analysis of How Critical Privacy Factors Influence Intentions to Use Internet of Things Applications
+087-Attribute-based Access and Communication Control Models for Cloud and Cloud-enabled Internet of Things
+088-
+-------------ACM-DL----------------
+089-A state of the art survey - Impact of cyber attacks on SME's
+090-Enforcement of Laws and Privacy Preferences in Modern Computing Systems
+091-
+092-Cybersecurity Analysis to Determine the Impact on the Social area in Latin America and the Caribbean
+093-ABAC-CC: Attribute-Based Access Control and Communication Control for Internet of Things
+094-Designing a Micro-Moving Target IPv6 Defense for the Internet of Things
+095-
+096-SDN Enabled QoE and Security Framework for Multimedia Applications in 5G Networks
+097-Fog Computing for Smart Healthcare data Analytics: An Urgent Necessity
+098-Privacy-preserving IoT Framework for Activity Recognition in Personal Healthcare Monitoring
+099-Toward privacy in IoT mobile devices for activity recognition
+100-An Artificial Intelligence Definition and Classification Framework for Public Sector Applications
+101-A Survey on Security and Privacy Issues in Modern Healthcare Systems: Attacks and Defenses
+102-Caring About IoT-Security – An Interview Study in the Healthcare Sector
+103-Exploiting Bluetooth Vulnerabilities in e-Health IoT Devices
+104-Cleartext Data Transmissions in Consumer IoT Medical Devices
+105-A comprehensive survey of smart city technologies for monitoring and controlling the epidemic spread of COVID-19
+106-
+107-Higher-Order Relationship-Based Access Control: A Temporal Instantiation with IoT Applications
+108-IoT and AI based intelligent system to fight against COVID-19
+109-Understanding Cybersecurity Practices in Emergency Departments
+110-A Survey of IIoT Protocols: A Measure of Vulnerability Risk Analysis Based on CVSS
+111-Visual Presentation and Trend Derivation of the Medical Big Data Research based on a Multi-level Bibliometric Analysis
+112-Blockchain-based Smart-IoT Trust Zone Measurement Architecture
+113-Towards Smart Online Dispute Resolution for Medical Disputes
+114-
+115-Blockchain-based Secure Medical Data Management and Disease Prediction
+116-Hybrid controller synthesis for the IoT
+117-Architecting Internet of Things Systems with Blockchain: A Catalog of Tactics
+118-Towards an Advanced Deep Learning for the Internet of Behaviors: Application to Connected Vehicles
+119-A Comprehensive Survey on Imputation of Missing Data in Internet of Things
+120-BARRETT BlockchAin Regulated REmote aTTestation
+121-A Multimodal, Multimedia Point-of-Care Deep Learning Framework for COVID-19 Diagnosis
+122-Internet of Medical Things (IoMT) Security and Privacy: A Survey of Recent Advances and Enabling Technologies
+123-RASCv2: Enabling Remote Access to Side-Channels for Mission Critical and IoT Systems
+124-IoT-Inspired Smart Toilet System for Home-Based Urine Infection Prediction
+125-A Survey on Edge Performance Benchmarking
+126-Federated Learning for Healthcare: Systematic Review and Architecture Proposal
+127-Survey of Trust Management on Mission-oriented Internet of Things
+128-To Transmit or Not to Transmit: Controlling Communications in the Mobile IoT Domain
+129-Lessons Learned: Analysis of PUF-based Authentication Protocols for IoT
+130-Can I Trust the Data I See?: A Physician's Concern on Medical Data in IoT Health Architectures
+131-An Architectural Mechanism for Resilient IoT Services
+132-Internet of things routing technique survey
+133-Classification of histopathological biopsy images using ensemble of deep learning networks
+134-Knowledge Enhanced GAN for IoT Traffic Generation
+135-MAPO: A Multi-Objective Model for IoT Application Placement in a Fog Environment
+136-Security Challenges for Big Data and IoT
+137-
+138-LoRa Networking Techniques for Large-scale and Long-term IoT: A Down-to-top Survey
+139-Resilient Authentication and Authorization for the Internet of Things (IoT) Using Edge Computing
+140-A Machine Learning Approach to Predict System-Level Threats from Hardware-Based Fault Injection Attacks on IoT Software
+141-Improving mobile business process monitoring with enhanced NFV MANO: a method to elicit connectivity requirements from process models
+142-A novel energy optimization approach for artificial intelligence-enabled massive internet of things
+143-
+144-A Flexible Authorization Architecture for Systems of Interoperable Medical Devices
+145-Wideband, Real-time Spectro-Temporal RF Identification
+146-Characterizing Delay and Control Traffic of the Cellular MME with IoT Support
+147-Evaluative analysis of next generation mobile networks in future smart grid in developing countries
+
+-----------IEEExplore--------------
+148-A profile-driven dynamic risk assessment framework for connected and autonomous vehicles
+149-Risks of Increase in the IoT Devices
+150-Towards Security Attack and Risk Assessment during Early System Design
+151-DRAFT - A Cybersecurity Framework for IoT Platforms
+152-Cyber Risk Assessment Model for Critical Information Infrastructure
+153-ICT in Healthcare: the role of IoT and the SECANT solution
+154-A Comprehensive Study of the IoT Cybersecurity in Smart Cities
+155-Cyber Security Risks of Technical Components in Industry 4.0
+156-Risk assessment methods for converged IoT and SCADA systems: Review and recommendations
+157-Challenges and Opportunities of Integrating, and Securing IoT technology in public places
+158-Vulnerabilities Analysis and Security Assessment Framework for the Internet of Things
+159-Cybersecurity Risks Mitigation in the Internet of Things
+160-Cyber risk management in satellite systems
+161-A Structure for Taking Measurements Health Research by Tracking Dynamic Attempting to Control Information through IoT Devices (IoT)
+162-Cybersecurity Risk with Wearable Technology in Sports: Why Should We Care?
+163-Security Risk Assessment in Internet of Things Systems
+164-Cybersecurity Risks Quantification in the Internet of Things
+165-If you can't understand it, you can't properly assess it! The reality of assessing security risks in Internet of Things systems
+166-Risk Assessment of Cyber Attacks on Power Grids Considering the Characteristics of Attack Behaviors
+167-An Automated Framework for Generating Attack Graphs Using Known Security Threats
+168-Quantitative Risk Modeling and Analysis for Large-Scale Cyber-Physical Systems
+169-Assessing Cyber-Physical Risks of IoT-Based Energy Devices in Grid Operations
+170-Towards a Practical Information Security Maturity Evaluation Method focused on People, Process and Technology
+171-A capability-oriented approach to assessing privacy risk in smart home ecosystems
+172-Practical Vulnerability-Information-Sharing Architecture for Automotive Security-Risk Analysis
+173-
+174-
+

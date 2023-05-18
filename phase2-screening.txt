@@ -1,0 +1,210 @@
+Task: read all titles and abstracts, see records that will be retrieved (pdf).
+---------------------------------
+Using Rayyan (tool): https://rayyan.ai/reviews/661529 integrated with Mendeley
+(untrustworthy, so I decided to go manual)
+---------------------------------
+
+Notes:
+[n/a] means that I read the Title/Abstract but couldn't retrieve the paper
+
+Acronyms:
+ABAC-CC: Attribute-Based Access Control and Communication Control
+AIS: Artificial Immune Systems
+AI/ML: Artificial Intelligence/Machine Learning
+BAN: Body Area Network
+CVSS: Common Vulnerability Scoring System
+EHR: Electronic Health Records
+HIoT: Health Internet of Things
+HPA: Health Prescription Assistant
+IdM: Decentralized Identity Management Systems
+IoB: Internet of Behaviors
+IoE: Internet of Everything
+IoHT: Internet of Health Things
+IoT: Internet of Things
+IoT-Health:
+IIoT: Industrial Internet of Things
+ITS: Intelligent Transportation Systems
+IoMT: Internet of Medical Things
+MIoT: Medical Internet of Things
+ML/DL: Machine Learning/Deep Learning
+MMBD: Multimedia Big Data
+PET: Privacy Enhancing Technologies
+QoS: Quality of Service
+WIMD: Wearable and Implantable Medical Devices
+
+--------------------------------------------------------------------------
+Google Scholar;;
+paper001; IoT; included
+paper002; IoT; included
+paper003; adaptive risk model for IoMT; included
+paper004; [n/a] platform for privacy and security; included
+paper005; IoT-cloud; included
+paper006; IoMT; included
+paper007; [n/a] IoT; included
+paper008; IoT, focus on blockchain; excluded
+paper009; HIoT, focus on blockchain-based IdM; excluded
+paper010; IoT, cyber-attacks; included
+paper011; MIoT, cyber-attacks; included
+paper012; IoT, Gray Literature, not a published paper, covid; excluded
+paper013; IoT; included
+paper014; IoT, deep learning; excluded
+paper015; IoT, blockchain, security requirements; included
+paper016; MIoT; included
+paper017; IoT, EHR; included
+paper018; IoT, attacks; included
+paper019; [n/a] IoHT, security analysis and provenance, SLR; included
+paper020; MIoT, Dissertation (Gray Literature); excluded
+paper021; MIoT, survey of threats/vulnerabilities; included
+paper022; MIoT, Adaptive Neuro-Fuzzy Inference System (ANFIS); excluded
+paper023; IoT, ML/DL; included
+paper024; book; excluded
+paper025; MIoT, privacy; included
+paper026; IoT, focus on testing/performance; included
+paper027; IoT, ITS; excluded
+paper028; book; excluded
+paper029; MIoT, security analysis to patient data; included
+paper030; IoT, HPA; excluded
+paper031; IoT, banking sector; excluded
+paper032; IoT, AIS; excluded
+paper033; IoT, survey of ML/DL; included
+paper034; IoMT, security performance, wearable; included
+paper035; IoT, blockchain and edge computing; excluded
+paper036; IoT, security properties; included
+paper037; MIoT, security requirements; included
+paper038; IoT, Dissertation (Gray Literature); excluded
+paper039; IoT, cloud; included
+paper040; IoT, impact on colleges/UTAH-US, Dissertation (Gray Literature); excluded
+paper041; IoT, metaverse, virtual reality; excluded
+paper042; IoT, intrusion detection; included
+paper043; IoT, QoS requirements; included
+paper044; IoT, Thesis (Gray Literature); excluded
+paper045; Telework, Capstone project (Gray Literature); excluded
+paper046; IoMT, Dissertation (Gray Literature); excluded
+paper047; IoT, biometrics; included
+paper048; IoT, security requirements; included
+paper049; book; excluded
+paper050; IoMT, communications; included
+paper051; Wireless networks; excluded
+paper052; WIMD, threats and security; included
+paper053; IoT, Dissertation (Gray Literature); excluded
+paper054; [n/a] IoT, MMBD; excluded
+paper055; IoT, cloud, blockchain; included
+paper056; IoT, Industry 4.0, digitalisation in healthcare; excluded
+paper057; IoT, blockchain, DDoS, attacks; included
+paper058; IoT, ML/DL, cyberattacks; included
+paper059; IoT, PET; included
+paper060; IoT, Dissertation (Gray Literature); excluded
+paper061; repeated; excluded
+paper062; Biological signal analysis; excluded
+paper063; book; excluded
+paper064; Metaverse in healthcare; excluded
+paper065; [n/a] IoMT, IoE; excluded
+paper066; IoT, performance monitoring, Dissertation (Gray Literature); excluded
+paper067; MIoT, value chain, Dissertation (Gray Literature); excluded
+paper068; IoT, secure routing; included
+paper069; IoT, blockchain, smart contracts; excluded
+paper070; book; excluded
+paper071; IoT, blockchain; excluded
+paper072; repeated; excluded
+paper073; IoT, blockchain, finger vein biometrics; excluded
+paper074; [n/a] IoT, intrusion detection, Dissertation (Gray Literature); excluded
+paper075; IoMT, privacy preserving, systematic literature review; included
+paper076; [n/a] title in greek; excluded
+paper077; IoT, Dissertation (Gray Literature); excluded
+paper078; IoMT, Dissertation (Gray Literature); excluded
+paper079; digital twin; excluded
+paper080; [n/a] IoT, wearable computing, BAN; included
+paper081; metaverse; excluded
+paper082; IoT, Dissertation (Gray Literature); excluded
+paper083; IoMT, federated learning, EHR, survey; included
+paper084; AI, 5G; excluded
+paper085; book; excluded
+paper086; IoT, Dissertation (Gray Literature); excluded
+paper087; IoT, cloud, Dissertation (Gray Literature); excluded
+paper088; repeated; excluded
+ACM-DL;;
+paper089; IoT, cyber-attacks; included
+paper090; panel; excluded
+paper091; proceedings; excluded
+paper092; unrelated; excluded
+paper093; IoT, ABAC-CC, AI/ML; included
+paper094; IoT, moving target defense; included
+paper095; proceedings; excluded
+paper096; 5G networks; excluded
+paper097; IoT, fog computing; included
+paper098; IoT, personal healthcare monitoring, privacy; included
+paper099; IoT, privacy; included
+paper100; AI governance, unrelated; excluded
+paper101; IoT, security and privacy; included
+paper102; IoT, security; included
+paper103; IoT, bluetooth vulnerabilities; included
+paper104; IoT, clear data transmissions; included
+paper105; IoT, covid, smart city; included
+paper106; technical report (Gray Literature); excluded
+paper107; MIoT, access control; included
+paper108; IoT, covid, AI, monitoring; included
+paper109; security in emergency departments, unrelated; excluded
+paper110; IIoT, risk analysis, CVSS; included
+paper111; unrelated; excluded
+paper112; IoT, blockchain, cyber-attacks; included
+paper113; unrelated; excluded
+paper114; expression of concern (by ACM), paper retracted; excluded
+paper115; IoT, blockchain; included
+paper116; IoT, event processing, QoS; included
+paper117; IoT, blockchain, systematic literature review; included
+paper118; ML/DL, IoB; excluded
+paper119; IoT, data imputation; included
+paper120; IoT, blockchain; included
+paper121; unrelated; excluded
+paper122; IoMT, security and privacy, survey; included
+paper123; IoT, side-channels attacks; included
+paper124; IoT, smart toilet, sensors, urinary infection; included
+paper125; unrelated; excluded
+paper126; ML, federated learning; excluded
+paper127; Mission-oriented IoT; excluded
+paper128; IoT, communications (no mention to security); excluded
+paper129; IoT, authentication; included
+paper130; IoT-Health, trust; included
+paper131; IoT, resilient services; included
+paper132; routing, unrelated; excluded
+paper133; unrelated; excluded
+paper134; IoT, generative adversarial network, traffic generation, unrelated; excluded
+paper135; IoT, unrelated to security; excluded
+paper136; [n/a] mobile IoT, security challenges; excluded
+paper137; proceedings; excluded
+paper138; Low power networks, unrelated; excluded
+paper139; IoT, relient authentication and authorization, edge computing; included
+paper140; IoT, AI/ML, threats, HW fault injection; included
+paper141; 5G networks, unrelated; excluded
+paper142; mIoT, energy optimization, unrelated to security; excluded
+paper143; proceedings; excluded
+paper144; MIoT, authorization; included
+paper145; unrelated; excluded
+paper146; poster; excluded
+paper147; smart grid; excluded
+IEEExplore;;
+paper148; IoT, dynamic risk assessment framework; included
+paper149; IoT, risks; included
+paper150; risk assessment; included
+paper151; IoT, cyber-attacks, cybersecurity framework; included
+paper152; risk assessment, but to critical infrastructure; excluded
+paper153; unrelated; excluded
+paper154; smart cities, unrelated; excluded
+paper155; riks in industry 4.0; included
+paper156; IoT, risk assessment; included
+paper157; IoT, security requirements; included
+paper158; security assessment framework; included
+paper159; IoT, risk mitigation; included
+paper160; satellite systems, unrelated; excluded
+paper161; IoT, risk assessment, monitoring; included
+paper162; risk management framework, wearable computing; included
+paper163; IoT, security risk assessment; included (looks like a magazine though)
+paper164; IoT, risk quantification; included
+paper165; IoT risk assessment; included
+paper166; risk assessment in smart grids coupled with IoT; included
+paper167; IoT, attack graphs, security threats, framework; included
+paper168; IoT, quantitative risk modeling; included
+paper169; IoT, cyber-physical risks, grid; included
+paper170; Industry 4.0, risk assessment; included
+paper171; smart home, assessing privacy risks; included
+paper172; automotive risk analysis, unrelated; included
